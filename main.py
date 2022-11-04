@@ -150,7 +150,7 @@ class Zlapp(Fudan):
 
         print("◉上一次提交地址为:", position['formattedAddress'])
         # print("◉上一次提交GPS为", position["position"])
-        # print(last_info)
+        print(last_info)
         
         # 改为上海时区
         os.environ['TZ'] = 'Asia/Shanghai'
